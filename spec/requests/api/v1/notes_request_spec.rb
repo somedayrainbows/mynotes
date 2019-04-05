@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'pry'
 
 describe "Notes API" do
   it "sends a list of notes" do
@@ -10,7 +9,6 @@ describe "Notes API" do
     expect(response).to be_successful
 
     notes = JSON.parse(response.body)
-    # binding.pry
 
     expect(notes["data"].count).to eq(5)
     expect(notes["data"].first).to have_key("title")
