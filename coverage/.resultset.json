@@ -1,0 +1,93 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/m_656442/training/rails_projects/mynotes/app/models/note.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/m_656442/training/rails_projects/mynotes/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/m_656442/training/rails_projects/mynotes/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/m_656442/training/rails_projects/mynotes/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/m_656442/training/rails_projects/mynotes/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/m_656442/training/rails_projects/mynotes/app/controllers/api/v1/notes_controller.rb": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0
+      ],
+      "/Users/m_656442/training/rails_projects/mynotes/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/m_656442/training/rails_projects/mynotes/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1554495311
+  }
+}

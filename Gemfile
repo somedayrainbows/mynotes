@@ -15,21 +15,22 @@ gem 'puma', '~> 3.7'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
-  # gem 'database_cleaner'
-  # gem 'factory_bot_rails'
+  gem 'database_cleaner'
+  gem 'factory_bot_rails'
   gem 'faker'
   gem 'shoulda-matchers'
   gem 'awesome_print', require: 'ap'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'simplecov'
 end
 
 group :development do
